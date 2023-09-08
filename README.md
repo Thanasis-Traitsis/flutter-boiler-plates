@@ -8,28 +8,36 @@ This repository provides a Flutter boilerplate project with a predefined code st
 2. [Getting Started](#getting-started)
     - [Dependencies](#dependencies)
     - [Assets](#assets)
+3. [Boilerplate Examples](#boilerplate-examples)
+    - [Example 1](#example-1)
 
 ## Project Structure
 
 The project follows a well-organized structure to promote maintainability and scalability:
 
-lib/
-├── config/
-│ ├── routes/
-│ └── themes/
-├── core/
-│ ├── constants/
-│ ├── usecases/
-│ ├── utils/
-│ └── widgets/
-└── features/
-├── home/
-│ ├── data/
-│ ├── domain/
-│ └── presentation/
-│ ├── pages/
-│ └── widgets/
-
+```
+📦lib
+ ┣ 📂config
+    ┣ 📂routes
+      ┣ 📜routes.dart
+    ┣ 📂themes
+      ┣ 📜app_theme.dart
+      ┣ 📜colors.dart
+ ┣ 📂core
+    ┣ 📂constants
+    ┣ 📂usecases
+    ┣ 📂utils
+    ┣ 📂widgets
+ ┣ 📂features
+    ┣ 📂feature_example
+      ┣ 📂data
+      ┣ 📂domain
+      ┣ 📂presentation
+        ┣ 📂(state-manager)
+        ┣ 📂pages
+          ┣ 📜page_screen.dart
+        ┣ 📂widgets
+```
 
 - **config**: Configuration files, including routes and themes.
 - **core**: Core functionalities and utilities used throughout the app.
@@ -43,12 +51,14 @@ To start a new project using this boilerplate, follow these steps:
 
 1. Add the required packages to your `pubspec.yaml` file:
 
-   ```yaml
+   ```
    dependencies:
      flutter:
        sdk: flutter
      # Add other dependencies here
+     ```
 
-Run flutter pub get to install the dependencies.
+
+ Run flutter pub get to install the dependencies.
 
 This README provides a brief overview of the project structure and asset configuration. Feel free to modify it to include any additional information specific to your project.
