@@ -6,8 +6,8 @@ This repository provides a Flutter boilerplate project with a predefined code st
 
 1. [Project Structure](#project-structure)
 2. [Getting Started](#getting-started)
-    - [Dependencies](#dependencies)
     - [Assets](#assets)
+    - [Dependencies](#dependencies)
 3. [Boilerplate Examples](#boilerplate-examples)
     - [Example 1](#example-1)
 
@@ -17,26 +17,22 @@ The project follows a well-organized structure to promote maintainability and sc
 
 ```
 📦lib
- ┣ 📂config
-    ┣ 📂routes
-      ┣ 📜routes.dart
-    ┣ 📂themes
-      ┣ 📜app_theme.dart
-      ┣ 📜colors.dart
- ┣ 📂core
+ ┗ 📂config
+    ┗ 📂routes
+    ┗ 📂themes
+ ┗ 📂core
     ┣ 📂constants
     ┣ 📂usecases
     ┣ 📂utils
-    ┣ 📂widgets
- ┣ 📂features
-    ┣ 📂feature_example
+    ┗ 📂widgets
+ ┗ 📂features
+    ┗ 📂feature_example
       ┣ 📂data
       ┣ 📂domain
-      ┣ 📂presentation
+      ┗ 📂presentation
         ┣ 📂(state-manager)
         ┣ 📂pages
-          ┣ 📜page_screen.dart
-        ┣ 📂widgets
+        ┗ 📂widgets
 ```
 
 - **config**: Configuration files, including routes and themes.
@@ -46,6 +42,11 @@ The project follows a well-organized structure to promote maintainability and sc
 ## Getting Started
 
 To start a new project using this boilerplate, follow these steps:
+
+### Assets
+
+Download the assets folder, and insert it in your root directory of your project.
+There, you can set all the images that you want to use in your app, and the font family of your preference.
 
 ### Dependencies
 
@@ -58,6 +59,21 @@ To start a new project using this boilerplate, follow these steps:
      # Add other dependencies here
      ```
 
+2. Add the required code in your 'pubspec.yaml' file, to make use of your assets folder
+
+   ```
+    assets:
+      - ./assets/images/
+
+    fonts:
+      - family: Manrope
+        fonts:
+          - asset: assets/fonts/Manrope-Regular.ttf
+          - asset: assets/fonts/Manrope-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/Manrope-Bold.ttf
+            weight: 700
+    ```
 
  Run flutter pub get to install the dependencies.
 
