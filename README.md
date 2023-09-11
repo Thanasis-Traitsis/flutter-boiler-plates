@@ -76,5 +76,14 @@ There, you can set all the images that you want to use in your app, and the font
     ```
 
  Run flutter pub get to install the dependencies.
+ 
+ ## Boilerplate Examples
+ 
+ There are 4 different boilerplates, based on the different needs of the application. 
+ |            | login / sign up | bottom navbar |
+|------------|---------------|--------|
+| login / signup |     YES       |    NO  |
+| bottom navbar       |     NO       |    YES  |
+
 
 This README provides a brief overview of the project structure and asset configuration. Feel free to modify it to include any additional information specific to your project.
