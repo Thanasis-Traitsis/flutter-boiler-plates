@@ -106,7 +106,7 @@ All you have to do, is download the lib folder and replace it with the one in yo
 
 ### No Login/Sign Up or Navbar
 
-|   Caption for Image 1   |   Caption for Image 2   |
+|   Home Page (First Screen)   |   Second Page   |
 |:-----------------------:|:-----------------------:|
 | ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/homepage_1.png) | ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/secondpage_1.png)|
 
