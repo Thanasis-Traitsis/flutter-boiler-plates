@@ -9,7 +9,7 @@ This repository provides a Flutter boilerplate project with a predefined code st
     - [Assets](#assets)
     - [Dependencies](#dependencies)
 3. [Boilerplate Examples](#boilerplate-examples)
-    - [Example 1](#example-1)
+    - [No Login/Sign Up or Navbar](#no-login-no-navbar)
 
 ## Project Structure
 
@@ -58,6 +58,10 @@ There, you can set all the images that you want to use in your app, and the font
        sdk: flutter
      # Add other dependencies here
      ```
+     
+    **Required Packages :**
+    - [go_router](https://pub.dev/packages/go_router/install)
+
 
 2. Add the required code in your 'pubspec.yaml' file, to make use of your assets folder
 
@@ -79,11 +83,31 @@ There, you can set all the images that you want to use in your app, and the font
  
  ## Boilerplate Examples
  
- There are 4 different boilerplates, based on the different needs of the application. 
- |            | login / sign up | bottom navbar |
-|------------|---------------|--------|
-| login / signup |     YES       |    NO  |
-| bottom navbar       |     NO       |    YES  |
+There are four distinct boilerplate templates tailored to cater to various application requirements:
 
+1. **No Login/Sign Up or Bottom Navbar:** This boilerplate template does not include either login/sign-up features or a bottom navigation bar, offering a clean and minimalistic starting point for your application.
+
+2. **Bottom Navbar Only:** In this template, you'll find a bottom navigation bar for easy navigation, but there are no login or sign-up components.
+
+3. **Login/Sign Up without Bottom Navbar:** This template provides login and sign-up features but omits the use of a bottom navigation bar.
+
+4. **Login/Sign Up with Bottom Navbar:** This template includes both login and sign-up functionalities, along with a bottom navigation bar.
+
+| Template Name                | Login/Sign Up | Bottom Navbar |
+|------------------------------|---------------|---------------|
+| No Login/Sign Up or Navbar   | No            | No            |
+| Bottom Navbar Only           | No            | Yes           |
+| Login/Sign Up without Navbar | Yes           | No            |
+| Login/Sign Up with Navbar    | Yes           | Yes           |
+
+
+
+All you have to do, is download the lib folder and replace it with the one in your project.
+
+### No Login/Sign Up or Navbar
+
+| ![Image 1](image1.jpg) | ![Image 2](image2.jpg) |
+|:-----------------------:|:-----------------------:|
+|   Caption for Image 1   |   Caption for Image 2   |
 
 This README provides a brief overview of the project structure and asset configuration. Feel free to modify it to include any additional information specific to your project.
