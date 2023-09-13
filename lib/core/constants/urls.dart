@@ -1,0 +1,1 @@
+const String appUrl = 'http://example.com';
