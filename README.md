@@ -9,7 +9,7 @@ This repository provides a Flutter boilerplate project with a predefined code st
     - [Assets](#assets)
     - [Dependencies](#dependencies)
 3. [Boilerplate Examples](#boilerplate-examples)
-    - [No Login/Sign Up or Navbar](#no-login/sign-up-or-navbar)
+    - [No Login/Sign Up or Navbar](#no-login-sign-up-or-navbar)
 
 ## Project Structure
 
