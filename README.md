@@ -104,7 +104,7 @@ There are four distinct boilerplate templates tailored to cater to various appli
 
 All you have to do, is download the lib folder and replace it with the one in your project.
 
-### No Login/Sign Up or Navbar
+### No Login-Sign Up or Navbar
 
 |   Home Page (First Screen)   |   Second Page   |
 |:-----------------------:|:-----------------------:|
