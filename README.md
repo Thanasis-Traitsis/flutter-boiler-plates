@@ -129,7 +129,7 @@ This boilerplate provides the best starting point of a simple app with bottom na
 
 |   Home Page (First Screen)   |   Second Page   |
 |:-----------------------:|:-----------------------:|
-| ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/homepage_2.png) | ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/secondpage_2.png)|
+| ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/bottom-navbar-only/homepage_2.png) | ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/bottom-navbar-only/secondpage_2.png)|
 
 ### Login-Sign Up without Navbar
 
@@ -146,10 +146,10 @@ In this advanced boilerplate, the 'lib' folder has been significantly enhanced, 
 
 |   Log in (First Screen)   |   Sign up   |
 |:-----------------------:|:-----------------------:|
-| ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/login_1.png) | ![Image 2](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/signup_1.png)|
+| ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/login_1.png) | ![Image 2](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/signup_1.png)|
 
 |   Home Page   |   Second Page   |
 |:-----------------------:|:-----------------------:|
-| ![Image 3](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/homepage_3.png) | ![Image 4](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/no-login-no-navbar/secondpage_3.png)|
+| ![Image 3](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/homepage_3.png) | ![Image 4](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/secondpage_3.png)|
 
 This README provides a brief overview of the project structure and asset configuration. Feel free to modify it to include any additional information specific to your project.
