@@ -12,6 +12,7 @@ This repository provides a Flutter boilerplate project with a predefined code st
     - [No Login-Sign Up or Navbar](#no-login-sign-up-or-navbar)
     - [Bottom Navbar Only](#bottom-navbar-only)
     - [Login-Sign Up without Navbar](#login-sign-up-without-navbar)
+    - [Login-Sign Up with Navbar](#login-sign-up-with-navbar)
 
 ## Project Structure
 
@@ -109,7 +110,7 @@ There are four distinct boilerplate templates tailored to cater to various appli
 | No Login-Sign Up or Navbar   | No            | No            |
 | Bottom Navbar Only           | No            | Yes           |
 | Login-Sign Up without Navbar | Yes           | No            |
-| Login/Sign Up with Navbar    | Yes           | Yes           |
+| Login-Sign Up with Navbar    | Yes           | Yes           |
 
 
 
@@ -151,5 +152,26 @@ In this advanced boilerplate, the 'lib' folder has been significantly enhanced, 
 |   Home Page   |   Second Page   |
 |:-----------------------:|:-----------------------:|
 | ![Image 3](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/homepage_3.png) | ![Image 4](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-without-navbar/secondpage_3.png)|
+
+### Login-Sign Up with Navbar
+
+In this advanced boilerplate, the 'lib' folder has been significantly enhanced, building upon the foundation of the previous version. Now, it comes with the inclusion of a user-friendly bottom navigation bar, providing an intuitive way for users to navigate between different sections of your app. Along with the two existing screens and the Bloc state management architecture powering Login and Signup functionalities, this dynamic approach seamlessly responds to user inputs within text fields. These additions offer not only a solid foundation for complex and scalable applications but also an improved user experience, making your app even more versatile and engaging.
+
+**Extra Required Packages :**
+- [bloc](https://pub.dev/packages/bloc/install)
+- [flutter_bloc](https://pub.dev/packages/flutter_bloc/install)
+- [equatable](https://pub.dev/packages/equatable/install)
+- [http](https://pub.dev/packages/http/install)
+
+**Rest API** for login and sign up
+- [reqres](https://reqres.in/)
+
+|   Log in (First Screen)   |   Sign up   |
+|:-----------------------:|:-----------------------:|
+| ![Image 1](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-with-navbar/login_2.png) | ![Image 2](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-with-navbar/signup_2.png)|
+
+|   Home Page   |   Second Page   |
+|:-----------------------:|:-----------------------:|
+| ![Image 3](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-with-navbar/homepage_4.png) | ![Image 4](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/login-signup-with-navbar/secondpage_4.png)|
 
 This README provides a brief overview of the project structure and asset configuration. Feel free to modify it to include any additional information specific to your project.
