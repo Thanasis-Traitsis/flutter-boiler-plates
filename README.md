@@ -1,6 +1,6 @@
 # Flutter Boilerplate Repository
 
-![alt text](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/Header_Image.png)
+![alt text](https://github.com/Thanasis-Traitsis/flutter-boiler-plates/blob/main/screenshots/Header_Image(1).png)
 
 This repository provides a Flutter boilerplate project with a predefined code structure, including folder organization and assets. Use this project as a starting point for your Flutter applications.
 
